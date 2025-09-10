@@ -1,0 +1,42 @@
+export const data = [
+    {
+      question: "Qual é a função principal de um sistema operacional?",
+      option1: "Executar jogos online",
+      option2: "Proteger o computador contra vírus",
+      option3: "Gerenciar os recursos do computador e permitir a execução de programas",
+      option4: "Criar websites automaticamente",
+      ans: 3,
+    },
+    {
+      question: "Qual das opções abaixo é um navegador de internet?",
+      option1: "Microsoft Excel",
+      option2: "Mozilla Firefox",
+      option3: "Adobe Photoshop",
+      option4: "VLC Media Player",
+      ans: 2,
+    },
+    {
+      question: "O que significa a sigla 'HTML'?",
+      option1: "HighText Machine Language",
+      option2: "Hyperlinks and Text Markup Language",
+      option3: "HyperText Markup Language",
+      option4: "Home Tool Markup Language",
+      ans: 3,
+    },
+    {
+      question: "Qual linguagem é usada para definir o estilo (cores, fontes, espaçamento) de um site?",
+      option1: "HTML",
+      option2: "JavaScript",
+      option3: "Python",
+      option4: "CSS",
+      ans: 4,
+    },
+    {
+      question: "Qual dessas extensões corresponde a um arquivo de página web em HTML?",
+      option1: ".docx",
+      option2: ".html",
+      option3: ".exe",
+      option4: ".pdf",
+      ans: 2,
+    },
+  ];
