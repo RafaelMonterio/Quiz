@@ -1,7 +1,6 @@
 
 body {
-  background: url("/bg.jpg") center/cover no-repeat fixed,
-              linear-gradient(135deg, #a10d0d, #c21313);
+  background: linear-gradient(135deg, #a10d0d, #c21313);
   display: flex;
   justify-content: center;
   align-items: center;

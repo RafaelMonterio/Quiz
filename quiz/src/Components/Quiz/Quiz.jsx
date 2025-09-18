@@ -66,7 +66,7 @@ export default function Quiz() {
     <div className="quiz-container">
       {!started ? (
         <>
-          <h1>Clash Quiz</h1>
+          <h1>Spider Quiz</h1>
           <button onClick={() => setStarted(true)}>Começar</button>
         </>
       ) : finished ? (
