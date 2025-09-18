@@ -1,57 +1,58 @@
-.container{
-    width: 640px;
-    margin: auto;
-    margin-top: 150px;
-    background: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border-radius: 20px;
-    padding: 40px 50px;
-        font-family: 'Tahoma'
+
+body {
+  background: url("/bg.jpg") center/cover no-repeat fixed,
+              linear-gradient(135deg, #a10d0d, #c21313);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-.container hr{
-    height: 2px;
-    border: none;
-    background: #fff;
-
+.quiz-container {
+  background: rgba(255, 255, 255, 0.65);
+  border: 3px solid #0a0092;    
+  border-radius: 20px;
+  padding: 2rem 2.5rem;
+  width: 340px;
+  text-align: center;
+  box-shadow: 0 0 25px rgba(168, 184, 255, 0.185);
+  backdrop-filter: blur(6px);
 }
 
-.container h2{
-    font-size: 27px;
-    font-weight: 500;
+
+.quiz-container h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;                   
+  text-shadow: 0 0 8px #1e3b8a00;
 }
 
-.container ul li {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    padding-left: 15px;
-    border: 1px solid #707070;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    cursor: pointer;
 
-    
+button {
+  display: block;
+  width: 100%;
+  margin: 0.6rem 0;
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(180deg, #1e40af, #1e3a8a);
+  border: 2px solid #facc1500;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
 }
 
-.container button{
-    margin: auto;
-    width: 250px;
-    height: 65px;
-    background: #4e0000;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 500;
-    border-radius: 8px;
-    cursor: pointer;
+button:hover {
+  background: linear-gradient(180deg, #2563eb, #1e40af);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #facc1500;
 }
 
-.container .index{
-    margin: auto;
-    font-size: 18px; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.result {
+  color: #facc15;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
